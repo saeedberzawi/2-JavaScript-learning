@@ -12,8 +12,8 @@ const staff = [
 ];
 
 const dailyTotal = staff.reduce((total, person) => {
-//   console.log(total);
-//   console.log(person.salary);
+  // console.log(total);
+  console.log(person.salary);
   total += person.salary
   return total // 810
 }, 10); // 810 + 10 = 820

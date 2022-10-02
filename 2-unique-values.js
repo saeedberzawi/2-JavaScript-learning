@@ -8,7 +8,7 @@ const menu = [
   { name: "eggs", category: "breakfast" },
   { name: "pasta", category: "dinner" },
   //   { name: "", category: "" },
-];
+]; 
 
 // map - get all instances
 // new set - narrow down
