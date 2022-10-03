@@ -31,6 +31,7 @@ console.log(pages);
 const newItems = Array.from({ length: pages }, (_, index) => {
   const start = index * itemsPerPage;
   const tempItems = items.slice(start, start + itemsPerPage);
+  return tempItems;
 });
 
-console.log(pages);
+console.log(newItems);
