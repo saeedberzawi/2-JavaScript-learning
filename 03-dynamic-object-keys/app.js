@@ -1,3 +1,19 @@
+const personif = ["hello", "great"];
+
+const testPerson = personif.map(function (item) {
+  console.log(item);
+});
+
+const newPerson = personif.map(function (item) {
+  if (item === "hello") {
+    return item.toUpperCase();
+  }
+  return item;
+});
+console.log(newPerson);
+
+// ---------------------------------
+
 // do notation
 const person = {
   name: "john",
